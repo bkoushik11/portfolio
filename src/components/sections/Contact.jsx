@@ -102,31 +102,32 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `;
 
 const Contact = () => {
   const form = useRef();
-  const handelSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_rimkznc",
+        "template_llfuhnw",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "mZpq-vjt8dg-ItRp-"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.result();
+          if (form.current) form.current.reset();
         },
         (error) => {
-          alert(error);
+          alert(error.text || error);
         }
       );
   };
   return (
-    <Container id="Education">
+    <Container id="Contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc
@@ -136,7 +137,7 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm as="form" ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />

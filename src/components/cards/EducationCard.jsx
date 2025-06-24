@@ -7,13 +7,17 @@ const Top = styled.div`
   display: flex;
   max-width: 100%;
   gap: 12px;
+  align-items: center;
 `;
 const Image = styled.img`
-  height: 50px;
+  height: 80px;
+  width: 80px;
   border-radius: 10px;
   margin-top: 4px;
+  object-fit: cover;
   @media only screen and (max-width: 768px) {
-    height: 40px;
+    height: 60px;
+    width: 60px;
   }
 `;
 const Body = styled.div`
