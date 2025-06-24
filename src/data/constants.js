@@ -153,23 +153,23 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Calculater",
-    date: "July 17, 2024",
-    description: "A simple web calculator that computes age in years, months, and days.",
-    image: "https://via.placeholder.com/300",
+    title: "Calculator",
+    date: "May 21, 2024",
+    description: "A responsive calculator built with HTML, CSS, and JavaScript that performs basic arithmetic operations through a clean user interface.",
+    image: "/calculater.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/bkoushik11/calculater",
+    github: "https://github.com/bkoushik11/calculator",
     webapp: "",
     category: "web app"
   },
   {
     id: 1,
-    title: "Real-world Clock",
+    title: "Real-Time Clock",
     date: "June 2, 2024",
-    description: "A real-time clock web app built with JavaScript.",
-    image: "https://via.placeholder.com/300",
+    description: "A simple and responsive digital clock built with HTML, CSS, and JavaScript that displays the current time in real time.",
+    image: "/clock-screenshot.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/bkoushik11/Real-world-clock",
+    github: "https://github.com/bkoushik11/Real-Time-Clock",
     webapp: "",
     category: "web app"
   },
