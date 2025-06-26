@@ -200,7 +200,7 @@ export const projects = [
     title: "Buy Me a Coffee",
     date: "June 26, 2025",
     description: "A Web3 dApp that allows users to send ETH donations through MetaMask, with a sleek UI built using Bolt.new.",
-    image: "https://buy-me-a-coffee1.netlify.app/assets/ETH%20Donation.png",
+    image: "/Wallet-Disconnected.png",
     tags: ["Solidity", "JavaScript", "MetaMask", "viem", "Bolt.new"],
     github: "https://github.com/bkoushik11/Buy-Me-A-Coffee",
     webapp: "https://buy-me-a-coffee1.netlify.app/",
