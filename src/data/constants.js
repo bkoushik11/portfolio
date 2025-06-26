@@ -197,13 +197,14 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Personal Finance Tracker",
-    date: "June 20, 2025",
-    description: "A personal finance management app built with Next.js and Node.js.",
-    image: "https://via.placeholder.com/300",
-    tags: ["Next.js", "React", "Node.js", "MongoDB"],
-    github: "https://github.com/bkoushik11/Personal-financce-tracker",
-    webapp: "",
+    title: "Buy Me a Coffee",
+    date: "June 26, 2025",
+    description: "A Web3 dApp that allows users to send ETH donations through MetaMask, with a sleek UI built using Bolt.new.",
+    image: "https://buy-me-a-coffee1.netlify.app/assets/ETH%20Donation.png",
+    tags: ["Solidity", "JavaScript", "MetaMask", "viem", "Bolt.new"],
+    github: "https://github.com/bkoushik11/Buy-Me-A-Coffee",
+    webapp: "https://buy-me-a-coffee1.netlify.app/",
     category: "web app"
   }
+  
 ];
