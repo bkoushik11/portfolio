@@ -155,56 +155,59 @@ export const projects = [
     id: 0,
     title: "Calculator",
     date: "May 21, 2024",
-    description: "A responsive calculator built with HTML, CSS, and JavaScript that performs basic arithmetic operations through a clean user interface.",
+    description:
+      "A responsive calculator built with HTML, CSS, and JavaScript that performs basic arithmetic operations through a clean user interface.",
     image: "/calculater.png",
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/bkoushik11/calculator",
     webapp: "",
-    category: "web app"
+    category: "web app",
   },
   {
     id: 1,
     title: "Real-Time Clock",
     date: "June 2, 2024",
-    description: "A simple and responsive digital clock built with HTML, CSS, and JavaScript that displays the current time in real time.",
+    description:
+      "A simple and responsive digital clock built with HTML, CSS, and JavaScript that displays the current time in real time.",
     image: "/clock-screenshot.png",
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/bkoushik11/Real-Time-Clock",
     webapp: "",
-    category: "web app"
+    category: "web app",
   },
   {
     id: 2,
     title: "E-commerce Web App",
-    date: "July 2022",
-    description: "A React-based e-commerce application built with Create React App. It features a responsive UI styled with Tailwind CSS, Firebase-based user authentication, and basic product/order management (including forms and validation).",
-    image: "https://via.placeholder.com/300",
-    tags: ["React", "Firebase", "Tailwind CSS", "JavaScript"],
+    date: "June 25, 2025",
+    description:
+      "A responsive e-commerce web app built with React and Express.js, featuring user authentication, product management, and styled using Tailwind CSS.",
+    image: "/e-commerce.png",
+    tags: ["React", "Express.js", "Tailwind CSS", "JavaScript"],
     github: "https://github.com/bkoushik11/E-commerce",
     webapp: "",
-    category: "web app"
+    category: "web app",
   },
   {
     id: 3,
     title: "AIResumeCraft",
-    date: "November 13, 2024",
+    date: "currently in development",
     description: "An AI-driven resume builder web app developed in TypeScript.",
     image: "https://via.placeholder.com/300",
     tags: ["TypeScript", "HTML", "CSS"],
     github: "https://github.com/bkoushik11/airesumecraft",
     webapp: "",
-    category: "web app"
+    category: "web app",
   },
   {
     id: 4,
     title: "Buy Me a Coffee",
     date: "June 26, 2025",
-    description: "A Web3 dApp that allows users to send ETH donations through MetaMask, with a sleek UI built using Bolt.new.",
+    description:
+      "A Web3 dApp that allows users to send ETH donations through MetaMask, with a sleek UI built using Bolt.new.",
     image: "/Wallet-Disconnected.png",
     tags: ["Solidity", "JavaScript", "MetaMask", "viem", "Bolt.new"],
     github: "https://github.com/bkoushik11/Buy-Me-A-Coffee",
     webapp: "https://buy-me-a-coffee1.netlify.app/",
-    category: "web app"
-  }
-  
+    category: "web app",
+  },
 ];
