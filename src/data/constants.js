@@ -10,7 +10,7 @@ export const Bio = {
     "I'm a full-stack developer and CS graduate with a strong interest in Web3 and emerging technologies. I love building user-focused web applications and writing clean, maintainable code. Always curious and eager to learn, I thrive in fast-paced environments that push me to grow.",
   github: "https://github.com/bkoushik11",
   resume:
-    "https://drive.google.com/file/d/16nff0hkNvD5x-wjbv3WADsogiS9SzRyl/view?usp=sharing", // Assumed from your repo; update if needed
+    "https://drive.google.com/file/d/16Z-aZ991ijwclfu01DWJU6EEc5eqRHl3/view?usp=sharing", // Assumed from your repo; update if needed
   linkedin: "https://www.linkedin.com/in/koushikbevanapally/", // Placeholder; update with your LinkedIn
   twitter: "https://x.com/BKoushikk", // Placeholder; update or remove
   insta: "https://www.instagram.com/thisiskoushikk", // Placeholder; update or remove
